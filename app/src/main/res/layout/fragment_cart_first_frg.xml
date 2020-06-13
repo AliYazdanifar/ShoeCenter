@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MyFragments.Cart.CartFirstFrg">
+
+
+    <androidx.cardview.widget.CardView
+        style="@style/CardViews2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <include layout="@layout/recycler_for_all_layout"/>
+
+
+    </androidx.cardview.widget.CardView>
+
+
+    <include layout="@layout/nothing_layout"
+        android:visibility="gone"
+        android:id="@+id/cartnothing"/>
+
+
+</FrameLayout>

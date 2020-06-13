@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#fedbd0</color>
+    <color name="my">#FAE2DA</color>
+    <color name="colorPrimaryDark">#fbb8ad</color>
+    <color name="colorAccent">#FF0057</color>
+    <color name="success">#00C851</color>
+    <color name="dark_success">#007E33</color>
+    <color name="warning">#ffbb33</color>
+    <color name="warning_dark">#FF8800</color>
+    <color name="danger">#ff4444</color>
+    <color name="danger_dark">#dc3646</color>
+    <color name="secondary">#878787</color>
+    <color name="gray">#dfdfdf</color>
+    <color name="dark">#000000</color>
+    <color name="app_background_color">#fafafa</color>
+    <color name="light">#ffffff</color>
+    <color name="blue">#4189ed</color>
+    <color name="info">#347690</color>
+    <color name="custom">#4FC3F7</color>
+    <color name="black_overlay">#66000000</color>
+</resources>

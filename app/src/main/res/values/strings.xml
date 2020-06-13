@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">تولیدی   آدینه</string>
+    <string name="nav_header_title">علی یزدانی فر</string>
+    <string name="nav_header_subtitle">0939 168 1434</string>
+    <string name="nav_header_desc">عضویت معمولی</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="first">First</string>
+    <string name="second">Second</string>
+    <string name="third">Third</string>
+    <string name="loginDetails">فروش انواع کفش های زنانه و دخترانه با کمترین قیمت و بهترین کیفیت به صورت عمده و یا تکی .     جهت شروع کار لطفا شماره ی همراه خود را وارد کنید</string>
+
+    <string name="noConnection">دسترسی شما به اینترنت میسر نیست لطفا تنظیمات اینترنت گوشی خود را چک کنید</string>
+
+    <string name="title_activity_photo_viewer">PhotoViewerActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="lt">&lt;&lt;&lt;</string>
+    <string name="gt">&gt;&gt;&gt;</string>
+
+    <string name="app_font_name">appfont.ttf</string>
+    <string name="ebhar_font_name">Ebhaar.otf</string>
+    <string name="behdad_font_name">behdad.ttf</string>
+    <string name="dimabarf_font_name">dimabarf.ttf</string>
+
+    <string name="nav_menu_item_home">صفحه ی اصلی</string>
+    <string name="nav_menu_item_orders">پیگیری سفارشات</string>
+    <string name="nav_menu_item_messages">پیام مدیر</string>
+    <string name="nav_menu_item_share">اشتراک گذاری</string>
+    <string name="nav_menu_item_contactus">ارتباط با ما</string>
+    <string name="msg_login">کاربر گرامی برای دسترسی به این قسمت شما باید ابتدا وارد شوید</string>
+
+    <string name="login_dialog">کد فعالسازی از طریق پیامک برای شماره ی وارد شده ارسال می شود.\nآیا شماره ی همراه را درست وارد کرده اید؟ </string>
+    <string name="info">آدرس : خیابان مصطفی خمینی نرسیده به چهارراه سیروس روبه روی بیمارستان سپیر کوچه بانکی پلاک 4واحد3 تلفن تماس :  02136058701  با مدیریت : زمانی</string>
+    <string name="programmer_words">در صورت وجود هرگونه خرابی و یا پیشنهاد برای بهبود برنامه می توانید از طریق ایمیل ali.yazdani324@gmail.com اقدام کنید</string>
+
+</resources>

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragmentmainactivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MyFragments.Main.MainActivityFrg">
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/mainfrgnestedsv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorPrimary"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/mainfrgsliderlinear"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/slider_height"
+                android:orientation="vertical">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/main_frg_card_slider"
+                    style="@style/CardViews"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <com.daimajia.slider.library.SliderLayout
+                        android:id="@+id/slidermain"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        app:auto_cycle="true"
+                        app:indicator_visibility="visible"
+                        app:pager_animation="RotateDown"
+                        app:pager_animation_span="1100" />
+
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linear-frg-main-recycler"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/app_background_color"
+                android:orientation="vertical">
+
+                <!--<TextView-->
+                    <!--android:id="@+id/mt1"-->
+                    <!--style="@style/HeaderText"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_marginTop="5dp"-->
+                    <!--android:text="_ کــفش_"-->
+                    <!--android:textColor="#DA646464"-->
+                    <!--android:textSize="20sp" />-->
+
+                <!--<androidx.recyclerview.widget.RecyclerView-->
+                    <!--android:id="@+id/mainfrgrecycler1"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="match_parent"-->
+                    <!--android:layout_marginBottom="10dp" />-->
+
+                <!--<View-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="1dp"-->
+                    <!--android:layout_marginTop="3dp"-->
+                    <!--android:layout_marginBottom="3dp"-->
+                    <!--android:background="@color/gray" />-->
+
+                <!--<TextView-->
+                    <!--android:id="@+id/mt2"-->
+                    <!--style="@style/HeaderText"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_marginTop="5dp"-->
+                    <!--android:text="_کیف_"-->
+                    <!--android:textColor="#DA646464"-->
+                    <!--android:textSize="20sp" />-->
+
+                <!--<androidx.recyclerview.widget.RecyclerView-->
+                    <!--android:id="@+id/mainfrgrecycler2"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="match_parent"-->
+                    <!--android:layout_marginBottom="10dp" />-->
+
+                <!--<View-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="1dp"-->
+                    <!--android:layout_marginTop="3dp"-->
+                    <!--android:layout_marginBottom="3dp"-->
+                    <!--android:background="@color/gray" />-->
+
+                <!--<TextView-->
+                    <!--android:id="@+id/mt3"-->
+                    <!--style="@style/HeaderText"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_marginTop="5dp"-->
+                    <!--android:text="دیگر محصولات..."-->
+                    <!--android:textColor="#DA646464"-->
+                    <!--android:textSize="20sp" />-->
+
+                <!--<androidx.recyclerview.widget.RecyclerView-->
+                    <!--android:id="@+id/mainfrgrecycler3"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="match_parent"-->
+                    <!--android:layout_marginBottom="10dp" />-->
+
+                <!--<View-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="1dp"-->
+                    <!--android:layout_marginTop="3dp"-->
+                    <!--android:layout_marginBottom="3dp"-->
+                    <!--android:background="@color/gray" />-->
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/main_frg_tv_version"
+                style="@style/DetailText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:background="@color/light"
+                android:text="Created by Ali Yazdanifar" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginBottom="3dp"
+                android:background="@color/gray" />
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</FrameLayout>
+
+

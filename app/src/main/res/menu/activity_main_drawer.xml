@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group>
+        <item
+            android:id="@+id/nav_main"
+            android:title="صفحه ی اصلی" />
+        <item
+            android:id="@+id/nav_history"
+            android:title="تاریخچه ی خرید" />
+
+    </group>
+
+    <item
+        android:title="درباره ی ما">
+        <menu>
+            <item
+                android:id="@+id/nav_messages"
+                android:title="پیام مدیر" />
+            <item
+                android:id="@+id/nav_share"
+                android:title="اشتراک گذاری" />
+
+            <item
+                android:id="@+id/nav_communication"
+                android:title="ارتباط با ما" />
+
+        </menu>
+    </item>
+ <item
+        android:title="ناحیه ی کاربری">
+        <menu>
+            <item
+                android:id="@+id/nav_logout"
+                android:title="خروج از حساب کاربری" />
+
+
+        </menu>
+    </item>
+
+</menu>

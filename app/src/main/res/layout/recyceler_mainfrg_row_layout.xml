@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainfrgcardview"
+    android:layout_width="140dp"
+    android:layout_height="wrap_content"
+    style="@style/CardViews">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/mainfrgimgview"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_luncher"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/mainfrgtxttitle"
+            style="@style/HeaderText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fashion B07 Keara 933"
+            android:maxLines="1"
+            app:layout_constraintEnd_toEndOf="@+id/mainfrgimgview"
+            app:layout_constraintStart_toStartOf="@+id/mainfrgimgview"
+            app:layout_constraintTop_toBottomOf="@+id/mainfrgimgview" />
+
+
+        <TextView
+            android:id="@+id/mainfrgtxtdetails"
+            style="@style/DetailText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="2dp"
+            android:layout_marginLeft="2dp"
+            android:maxLines="1"
+            android:text="توضیحات"
+            app:layout_constraintEnd_toEndOf="@+id/mainfrgtxttitle"
+            app:layout_constraintStart_toStartOf="@+id/mainfrgtxttitle"
+            app:layout_constraintTop_toBottomOf="@+id/mainfrgtxttitle" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.cardview.widget.CardView>
